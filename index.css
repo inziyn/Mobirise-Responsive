@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    color: #2e6b75;
+    font-weight: 400;
+    font-family: "outfit",sans-serif;
+}
+.nav-item a{
+    color: #6c7577;
+    font-family: "outfit",sans-serif;
+
+}
+.btn{
+    background-color: #2e6b75;
+    border-color: #2e6b75;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+}
+.btn:hover{
+    background-color: #212529;
+}
+ 
+.leftcontainer h1{
+     margin-top: 64px; 
+    color: #2e6b75;
+    font-size: 4.75rem;
+    line-height: 1.1;
+    font-family: 'Spline Sans', sans-serif;
+}
+.leftcontainer p{
+    margin-top: 33px;
+    color: #6c7577;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "outfit",sans-serif;
+}
+/* .right-container{
+     width: 50%; 
+} */
+ .firstimg img{
+    margin-top: -56px;
+    height: 705.56px;
+    /* width: 538px; */
+    object-fit: cover;
+    border-radius: 0px 0px 0px 62px;
+    z-index: -1;
+    position: relative;
+    max-width: 100%;
+}   
+.firstimg img{
+    max-width: 100%;
+}
+.section2{
+    margin-top: 10%;
+}
+.parents{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.head h1{
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 4.75rem;
+    line-height: 1.1;
+}
+.cont1{
+    background-color: #49858f;
+    border-radius: 45px;
+    padding: 4rem;  
+}
+.logos{
+    display: flex;
+}
+.logos div{
+    background-color: #2e6b75;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+.logos .firstc{
+    background-color: #8bc1bc;
+}
+.cont1 h1{
+    color: #ffffff;
+    padding-top: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.cont1 p{
+    color: #b9cdd0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.parents button{
+    padding-top: 12px;
+    background-color: #91c2be;
+    padding: 12px;
+    width: 65%;
+    border-radius: 40px;
+    border: none;
+    color: white;
+}
+.parents button:hover{
+    background-color: #2e6b75;
+}
+.logos .secondc{
+    background-color: white;
+}
+.logos .thirdc{
+    background-color: #91c2be;
+}
+.cont2{
+    background-color: #49858f;
+    border-radius: 45px;
+    padding: 4rem;   
+}
+.cont2 h1{
+    color: #ffffff;
+    padding-top: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.cont2 p{
+    color: #b9cdd0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.cont3{
+    background-color: #49858f;
+    border-radius: 45px;
+    padding: 4rem; 
+}
+.cont3 h1{
+    color: #ffffff;
+    padding-top: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.cont3 p{
+    color: #b9cdd0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.section3{
+    margin-top: 100px;
+    background-color: #eff6fa;
+}
+.head1 h1{
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-family: 'Spline Sans', sans-serif;
+    color: #2E6B76;
+    margin-top: 40px;
+}
+.row hr{
+    margin-top: 35px;
+}
+.card1{
+    margin-top: 30px;
+    border-right: 1px solid #76767686; 
+
+}
+.card2{
+    padding: 12px;  
+    border-right: 1px solid #76767657; 
+
+}
+.card3{
+    padding: 12px;  
+}
+.card4{
+    margin-top: 40px;
+    height: 38%;
+    padding: 12px;
+    border-right: 1px solid #76767686; 
+
+}
+.card5{
+    margin-top: 40px;
+    /* padding: 12px;   */
+}
+.card6{
+    margin-top: 60px;
+}
+.title span{
+    color: #92c3be;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Spline Sans', sans-serif;
+}
+.card1 h4{
+    font-weight: 500;
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card1 p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767676;
+}
+.card2 h4{
+    font-weight: 500;
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card2 p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767676;
+}
+.card3 h4{
+    font-weight: 500;
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card3 p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767676;
+}
+.card4 h4{
+    font-weight: 500;
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card4 p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767676;
+}
+.card5 h4{
+    font-weight: 500;
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card5 p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767676;
+}
+.card6{
+    background-color: #49858f;
+    padding: 4rem;   
+    margin-bottom: 100px;
+}
+.card6 h1{
+    color: #ffffff;
+    padding-top: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.card6 p{
+    color: #b9cdd0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.card6 button{
+    padding-top: 12px;
+    background-color: #91c2be;
+    padding: 12px;
+    width: 90%;
+    border-radius: 40px;
+    border: none;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .section3{
+        text-align: center;
+    }
+    .section5{
+        text-align: center;
+    }
+    .firstdiv{
+        margin-top: 36px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .seconddiv{
+        margin-top: 36px;
+    }
+    .thirddiv{
+        margin-top: 36px;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    .firstimg img{
+        margin-top: 40px;
+        border-radius: 0;
+    }
+    .card1{
+        border: none;
+    }
+    .card2{
+        border: none;
+    }
+    .card4{
+        border: none;
+    }
+    .card3{
+        margin-top: 40px;
+    }
+}
+    
+
+.section4{
+    margin-top: 60px;
+}
+.heading h1{
+    color: #2e6b75;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 4.75rem;
+    line-height: 1.1;
+}
+iframe{
+    margin-top: 18px;
+    width: 100%;
+    height: 500px;
+}
+.section5{
+    margin-top: 60px;
+    background-color: #2e6b75;
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+}
+.lastdiv{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+ .section5 li{
+    margin-left: -31px;
+    font-size: 1.7;
+    color: #b9cdd0;
+}
+.lastline p{
+    text-align: center;
+    margin-bottom: 5%;
+}

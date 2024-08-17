@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+       display: flex;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    margin-left: -34px;
+    margin-top: -6px;
+    width: 31%;
+    border: 1px solid black;
+    height: 20%;
+}
+.nav-list li{
+    list-style: none;
+    padding: 25px;
+}
+.capt{
+    margin: 50px;
+    height: 25px;
+    margin-top: 16px;
+    padding-left: 5%;
+    width: 10%;
+    border: 1px solid black;
+}
+.capt a{
+    color: #2e6b75;
+    font-weight: 400;
+    font-family: "outfit",sans-serif;
+    text-decoration: none;
+}
+.lis{
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #6c7577;
+    font-size: 16px;
+    font-family: 'outfit',sans-serif;
+}
+.nav-list li a:hover{
+    color: black;
+}
+.right-bar{
+    width:50%;
+    /* padding-top: 15px; */
+    /* border: 1px solid black; */
+}
+.download{
+    left: 75%;
+    margin-top: 35px;
+    padding: 12px;
+    width: 180px;
+    background-color: #2e6b75;
+    color: white;
+    border-color: #2e6b75;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    z-index: 1;
+    position: relative;
+}
+.right-bar button:hover{
+    background-color: black;
+}
+.right-bar img{
+    margin-top: -81px;
+    height: 705.6px;
+    width: 538px;
+    object-fit: cover;
+    border-radius: 0px 0px 0px 62px;
+    z-index: 0;
+}
+.textbox{
+    width: 37%;
+    margin-top: -38%;
+    margin-left: 8%;
+    /* border: 1px solid black;    */
+}
+.title{
+    color: #2e6b75;
+    font-size: 4.75rem;
+    line-height: 1.1;
+    font-family: 'Spline Sans', sans-serif;
+}
+.title2{
+    margin-top: 4%;
+    color: #6c7577;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "outfit",sans-serif;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+    /* z-index: 1; */
+    /* position: relative; */
+}
+@media only screen and (max-width: 1140px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .download{
+        padding: 12px;
+        margin-left: -131px;
+    }
+}
